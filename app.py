@@ -1156,7 +1156,7 @@ ROI:               {metrics['roi']:.2f}%
 CPA:               ${metrics['cpa']:.2f}
 CTR:               {metrics['ctr']:.2f}%
 Conversion Rate:   {metrics['conversion_rate']:.2f}%
-Records:           {metrics['records']}
+Records:           {metrics.get('records', 'N/A')}
 
 """
                     
@@ -1375,6 +1375,8 @@ END OF REPORT
                 
             except Exception as e:
                 st.error(f"❌ Error generating report: {str(e)}")
+                import traceback
+                st.error(f"Details: {traceback.format_exc()}")
     
     st.markdown("---")
     
@@ -1405,6 +1407,7 @@ END OF REPORT
                 mime="text/csv",
                 use_container_width=True
             )
+
 def show_qa_page(pinecone_mgr, mistral_agent):
     """Interactive Q&A page"""
     
