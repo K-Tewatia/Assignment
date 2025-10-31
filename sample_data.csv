@@ -1,0 +1,4 @@
+campaign_id,campaign_name,channel,date,impressions,clicks,conversions,conversion_rate,cost,revenue,roi,currency
+CMP-1001,Newsletter Q1,Email,2024-01-01,10000,850,45,5.29,500.0,4500.0,800.0,USD
+CMP-1002,Facebook Campaign,Social Media,2024-01-01,100000,5000,120,2.4,1500.0,3600.0,140.0,USD
+CMP-1003,Google Search Ads,Paid Search,2024-01-01,150000,7500,85,1.13,2000.0,4250.0,112.5,USD
