@@ -4,7 +4,7 @@ AI-powered marketing analytics platform for data-driven budget optimization usin
 What Does This App Do?
 This application helps marketing teams analyze performance and optimize budget allocation across multiple marketing channels using:
 
-AI Analysis: Get insights from your marketing data using Large Language Models (Groq/Mistral)
+AI Analysis: Get insights from your marketing data using Large Language Models (Mistral)
 
 Budget Optimization: Mathematical optimization to maximize ROI/conversions
 
@@ -37,7 +37,7 @@ The app will open in your browser at http://localhost:8501
 
 📁 Project Structure
 text
-marketing-roi-optimizer/
+Assignment/
 |- campaign-channel-conversions # Dataset to be uploaded
 |- setup_check.py             # TO TEST THE WORKING OF APP
 |- outputs                    # Reports
